@@ -283,33 +283,68 @@
 // console.log(fruits.length);
 // console.log(fruits);
 
-function greet(name){
-    return `hello ,${name}`;
-}
+// function greet(name){
+//     return `hello ,${name}`;
+// }
 
-console.log(greet('Ali'));
+// console.log(greet('Ali'));
 
-const square=function(x){
-    return x*x;
+// const square=function(x){
+//     return x*x;
 
-}
-console.log(square(7));
+// }
+// console.log(square(7));
 
 
-console.log(typeof 'Hello');
-console.log(typeof 123);
-console.log(typeof null);
-console.log(typeof Symbol);
+// console.log(typeof 'Hello');
+// console.log(typeof 123);
+// console.log(typeof null);
+// console.log(typeof Symbol);
 
 // 4.2 instanceof
 
-let arr=[];
-console.log(arr instanceof Array);
-console.log(typeof arr);
-console.log(arr instanceof Object);
+// let arr=[];
+// console.log(arr instanceof Array);
+// console.log(typeof arr);
+// console.log(arr instanceof Object);
 
 
-console.log(  [] instanceof Object);
+// console.log(  [] instanceof Object);
+
+
+// Array.isArray(value);
+
+// let fruits= ["Apple", "Banana", "Cherry"];
+// console.log(Array.isArray(fruits));
+
+// let emptyArr=[];
+// console.log(Array.isArray(emptyArr));
+// console.log(typeof []);
+
+
+// console.log(Array.isArray([]));
+
+// console.log("5" + 2);
+// console.log('5' -2);
+// console.log(true +1);
+// 5.1 Implicit Conversion (Type Coercion)
+
+
+let result='10' -2;
+console.log(result);
+console.log(typeof result);
+
+console.log(5== '5');
+console.log(0 ==false);
+console.log(null == undefined);
+console.log('5' == 5);
+console.log('5' === 5);
+
+// 5.2 Explicit Conversion
+
+
+
+
 
 
 
