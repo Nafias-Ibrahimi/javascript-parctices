@@ -421,15 +421,46 @@
 // console.log(car);
 // console.log(car.brand ,car.year);
 
-let arr=[1,2,3,4,5];
-console.log(arr);
-arr.push(6)
-console.log(arr);
-arr.pop();
-console.log(arr);
-console.log(arr.shift());
-console.log(arr);
-console.log(arr.unshift(4));
+// let arr=[1,2,3,4,5];
+// console.log(arr);
+// arr.push(6)
+// console.log(arr);
+// arr.pop();
+// console.log(arr);
+// console.log(arr.shift());
+// console.log(arr);
+// console.log(arr.unshift(4));
+
+// function  greet(name){
+//     return `hello,${name}`;
+// }
+// console.log(greet('Nafisa'));
+
+// const greets=(name)=> `Hello , ${name}`
+//     console.log(greet('ALI'));
+
+let num='123';
+console.log(Number(num));
+let str=123;
+console.log(typeof String(str));
+
+let n='5';
+let m=5;
+console.log( typeof Number(n+m));
+console.log("5" -2);
+
+console.log(String(123));
+
+console.log(Number('123'));
+console.log(parseInt('32px'));
+console.log(Boolean(0));
+
+let nums=2345;
+let a=nums.toString();
+console.log(a);
+console.log(String(3456));
+
+
 
 
 
