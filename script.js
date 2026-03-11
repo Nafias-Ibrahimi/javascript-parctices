@@ -439,26 +439,59 @@
 // const greets=(name)=> `Hello , ${name}`
 //     console.log(greet('ALI'));
 
-let num='123';
-console.log(Number(num));
-let str=123;
-console.log(typeof String(str));
+// let num='123';
+// console.log(Number(num));
+// let str=123;
+// console.log(typeof String(str));
 
-let n='5';
-let m=5;
-console.log( typeof Number(n+m));
-console.log("5" -2);
+// let n='5';
+// let m=5;
+// console.log( typeof Number(n+m));
+// console.log("5" -2);
 
-console.log(String(123));
+// console.log(String(123));
 
-console.log(Number('123'));
-console.log(parseInt('32px'));
-console.log(Boolean(0));
+// console.log(Number('123'));
+// console.log(parseInt('32px'));
+// console.log(Boolean(0));
 
-let nums=2345;
-let a=nums.toString();
-console.log(a);
-console.log(String(3456));
+// let nums=2345;
+// let a=nums.toString();
+// console.log(a);
+// console.log(String(3456));
+
+
+// let a=10;
+// let b=3;
+// console.log(a-b);
+// console.log(a+b);
+// console.log(a*b);
+// console.log(a/b);
+// console.log(a%b);
+// console.log(a**b);
+
+// let num=7;
+
+// console.log(num % 2 == 0 ? "even" :"odd");
+
+// let x=5;
+// x +=2;
+// x -=4;
+// x /=6;
+// x %=3;
+// console.log(x);
+
+// console.log(5 == "5");
+// console.log(5==='5');
+// console.log(5 !='5');
+// console.log(7>3);
+// console.log(7<=7);
+
+let age=30;
+let hasID=true;
+console.log(age>18 && hasID);
+console.log(age <18 || hasID);
+console.log(!hasID);
 
 
 
