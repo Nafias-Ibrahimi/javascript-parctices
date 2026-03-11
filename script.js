@@ -330,17 +330,64 @@
 // 5.1 Implicit Conversion (Type Coercion)
 
 
-let result='10' -2;
-console.log(result);
-console.log(typeof result);
+// let result='10' -2;
+// console.log(result);
+// console.log(typeof result);
 
-console.log(5== '5');
-console.log(0 ==false);
-console.log(null == undefined);
-console.log('5' == 5);
-console.log('5' === 5);
+// console.log(5== '5');
+// console.log(0 ==false);
+// console.log(null == undefined);
+// console.log('5' == 5);
+// console.log('5' === 5);
 
 // 5.2 Explicit Conversion
+// • Using built-in functions.
+// to Number
+//  console.log(Number('123'));
+//  console.log(parseInt("24px"));
+
+//  let str='123';
+//  let num=Number(str)
+//  console.log(num);
+//  console.log(typeof num);
+
+
+//  let str1='456px';
+//  let num1=parseInt(str1);
+//  console.log(num1);
+//  let num2=parseFloat("3,14abc")
+//  console.log(num1 ,num2);
+
+// let str='789';
+// let num=+str;
+// console.log(num);
+// console.log(typeof num);
+
+// let num=123;
+// let str=String(num)
+// console.log(str);
+// console.log(typeof num);
+
+
+// let num1=465;
+// let str1=num.toString();
+// console.log(str1);
+// console.log(typeof str1);
+
+// console.log(Boolean(1));
+// console.log(Boolean(0));
+// console.log(Boolean(""));
+// console.log(Boolean('Hi'));
+
+let value='Hello';
+console.log(!!value);
+let empty=0;
+console.log(!!empty);
+
+
+
+
+
 
 
 
