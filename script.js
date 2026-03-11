@@ -303,6 +303,13 @@ console.log(typeof Symbol);
 
 // 4.2 instanceof
 
+let arr=[];
+console.log(arr instanceof Array);
+console.log(typeof arr);
+console.log(arr instanceof Object);
+
+
+console.log(  [] instanceof Object);
 
 
 
