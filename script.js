@@ -497,9 +497,36 @@
 // let result=(score >= 50 ? "pass" : "falid")
 // console.log(result);
 
-let age=15;
-let category=age > 13 ? "Child" : "adult";
-console.log(category);
+// let age=15;
+// let category=age > 13 ? "Child" : "adult";
+// console.log(category);
+
+// 6. Spread Operator (...)
+
+let arr1=[1,2,3];
+let arr2=[...arr1,4,5]
+console.log(arr2);
+
+let number=[10,20 ,30];
+let copy=[...number]
+console.log(copy);
+
+let obj1={name:'Ali' , age:20};
+let obj2={...obj1 , country:'Afg'};
+console.log(obj2);
+
+let car={brand:'camry' , model:'corola' , year:2025};
+let phone={...car, price:20000};
+console.log(phone);
+
+let Students=['ali' ,'Nafisa' ,'Ahmad'];
+let teacher=[...Students, 'zahra' ,'morsal'];
+console.log(teacher);
+
+let className={name:'A',grade: 1};
+let student={...className , name:'Nafisa' ,age:20};
+console.log(student);
+
 
 
 
