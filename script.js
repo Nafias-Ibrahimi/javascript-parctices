@@ -487,12 +487,19 @@
 // console.log(7>3);
 // console.log(7<=7);
 
-let age=30;
-let hasID=true;
-console.log(age>18 && hasID);
-console.log(age <18 || hasID);
-console.log(!hasID);
+// let age=30;
+// let hasID=true;
+// console.log(age>18 && hasID);
+// console.log(age <18 || hasID);
+// console.log(!hasID);
 
+// let score=75;
+// let result=(score >= 50 ? "pass" : "falid")
+// console.log(result);
+
+let age=15;
+let category=age > 13 ? "Child" : "adult";
+console.log(category);
 
 
 
