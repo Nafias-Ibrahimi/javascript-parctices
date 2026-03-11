@@ -1,0 +1,13 @@
+.tooltip{
+    position: relative;
+    display: inline-block;
+    border-bottom: 3px dotted black;
+    cursor: pointer;
+}
+.toolitptext{
+    visibility: visible;
+    color:white;
+    background-color: black;
+    text-align: center;
+    padding: 5px 0;
+}
