@@ -379,10 +379,57 @@
 // console.log(Boolean(""));
 // console.log(Boolean('Hi'));
 
-let value='Hello';
-console.log(!!value);
-let empty=0;
-console.log(!!empty);
+// let value='Hello';
+// console.log(!!value);
+// let empty=0;
+// console.log(!!empty);
+// 5.3 Truthy and Falsy Values
+
+// if("") console.log('true');
+// else console.log('false');
+
+// if(!0){
+//     console.log('0 is falsy');
+// }
+// if(!""){
+//     console.log('Empty staring is falsy');
+// }
+// if(!null){
+//     console.log('null is falsy');
+// }
+
+// 6. Advanced Notes
+// let a=10;
+// let b=a;
+// b=20;
+// console.log(b);
+
+// let obj1={name: "Ali"};
+// let obj2=obj1;
+// obj2.name='Sara';
+// console.log(obj1.name);
+
+// const sym=Symbol('id');
+// let obj={[sym]:123};
+// console.log(obj[sym]);
+
+// let car={
+//     brand:'camry',
+//     model:'Corolla',
+//     year:2026
+// };
+// console.log(car);
+// console.log(car.brand ,car.year);
+
+let arr=[1,2,3,4,5];
+console.log(arr);
+arr.push(6)
+console.log(arr);
+arr.pop();
+console.log(arr);
+console.log(arr.shift());
+console.log(arr);
+console.log(arr.unshift(4));
 
 
 
