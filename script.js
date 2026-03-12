@@ -632,40 +632,76 @@
 //  while(i<=5);
 
 
- let student={
-   name:'ali',
-   age:20,
-   grade:'A'
- };
- for(let key in student){
-   console.log(key+ ":" +student[key]);
- }
+//  let student={
+//    name:'ali',
+//    age:20,
+//    grade:'A'
+//  };
+//  for(let key in student){
+//    console.log(key+ ":" +student[key]);
+//  }
 
 
- let person={
-name:'Nafisa',
-age:20,
-city:'Kabul'
- };
- for(let key in person){
-   console.log(key + ":" +person[key]);
- }
+//  let person={
+// name:'Nafisa',
+// age:20,
+// city:'Kabul'
+//  };
+//  for(let key in person){
+//    console.log(key + ":" +person[key]);
+//  }
  
 
- let numbers=[20,30,40];
- for(let i in numbers){
-   console.log(i + ":"+ numbers[i]);
- }
+//  let numbers=[20,30,40];
+//  for(let i in numbers){
+//    console.log(i + ":"+ numbers[i]);
+//  }
 
 
- for(let i=1; i<=10; i++){
-   if(i===5) break;
-   console.log(i);
- }
+//  for(let i=1; i<=10; i++){
+//    if(i===5) break;
+//    console.log(i);
+//  }
 
-for (let i=0; i<5; i++){
-   if(i===2){
-      continue;
+// for (let i=0; i<5; i++){
+//    if(i===2){
+//       continue;
+//    }
+//    console.log(i);
+// }
+//  for (let i=1; i<=10; i++){
+//    if(1 % 2 === 0){
+//       continue;
+//    }
+//    console.log(i);
+//  }
+// for (let i = 1; i <= 5; i++) {
+//   if (i % 3 === 0) {
+//     continue;
+//   }
+//   console.log(i);
+// }
+
+// for(let i=1; i<=3; i++){
+//    for(let j=1; j<=3; j++){
+//       console.log(`i:${i} , j:${j}`);
+//    }
+// }
+
+for(let i=1; i<=10; i++){
+   if(i % 2===0){
+      console.log(i);
    }
-   console.log(i);
+}
+
+let password="";
+let attempts=0;
+while(password !== "123" && attempts<3){
+   password=prompt("Enter passwd");
+   attempts++;
+}
+if(password === "123"){
+   console.log('Access granted');
+}else{
+   console.log("too many attemts");
 }
