@@ -694,35 +694,80 @@
 //    }
 // }
 
-let password="";
-// let attempts=0;
-// while(password !== "123" && attempts<3){
-//    password=prompt("Enter passwd");
-//    attempts++;
+// let password="";
+// // let attempts=0;
+// // while(password !== "123" && attempts<3){
+// //    password=prompt("Enter passwd");
+// //    attempts++;
+// // }
+// if(password === "123"){
+//    console.log('Access granted');
+// }else{
+//    console.log("too many attemts");
 // }
-if(password === "123"){
-   console.log('Access granted');
-}else{
-   console.log("too many attemts");
+
+
+// const passwd=['1234' , 'abcd', 'admin' ,'mypassowrd'];
+// const correctPasswrd="admin";
+// for(let i=0; i<passwd.length; i++){
+//    if(passwd[i] === correctPasswrd){
+//       console.log('password fonud:' ,passwd[i]);
+//       break;
+//    }
+//    console.log("Wrong password" ,passwd[i]);
+// }
+
+// const passwords = ["12", "abcd", "123", "admin"];
+
+// for (let i = 0; i < passwords.length; i++) {
+//   if (passwords[i].length < 4) {
+//     continue;
+//   }
+
+//   console.log("Checking password:", passwords[i]);
+// }
+
+// let car={brand:'Toyota' , year:2025, color:'red'};
+// for (let prop in car){
+//    console.log(`${prop}, ${car[prop]}`);
+// }
+// outerLoop: for (let i = 1; i <= 3; i++) {
+//  for (let j = 1; j <= 3; j++) {
+//  if (i === 2 && j === 2) break outerLoop;
+//  console.log(i, j);
+//  }
+// }
+
+// function
+
+function greet(name){
+   return 'Hello:' +name;
 }
-
-
-const passwd=['1234' , 'abcd', 'admin' ,'mypassowrd'];
-const correctPasswrd="admin";
-for(let i=0; i<passwd.length; i++){
-   if(passwd[i] === correctPasswrd){
-      console.log('password fonud:' ,passwd[i]);
-      break;
-   }
-   console.log("Wrong password" ,passwd[i]);
+console.log(greet('Nafisa'));
+const greets=function(name){
+   return 'Hello My frien:'+name
 }
+console.log(greets('Ali'));
 
-const passwords = ["12", "abcd", "123", "admin"];
-
-for (let i = 0; i < passwords.length; i++) {
-  if (passwords[i].length < 4) {
-    continue;
-  }
-
-  console.log("Checking password:", passwords[i]);
+function add(a,b){
+   return a+b;
 }
+console.log(add(8,5));
+
+
+const addArrow=(a,b)=>a+b ;
+ console.log(addArrow(3,6));
+   
+const multiply=(x,y)=>{
+   let result=x*y;
+   return result
+}
+console.log(multiply(9,5));
+
+
+const sayHi=()=>{
+   console.log('Hello ');
+}
+sayHi();
+
+function greet
