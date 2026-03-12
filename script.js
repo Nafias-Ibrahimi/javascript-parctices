@@ -529,35 +529,61 @@
 
 // 7. Rest Operator (...)
 
-function sum(...number){
-    return number.reduce((acc ,curr) =>acc + curr ,0);
+// function sum(...number){
+//     return number.reduce((acc ,curr) =>acc + curr ,0);
+// }
+
+// console.log(sum(1,2,3,4,5));
+// // 8. Nullish Coalescing Operator (??)
+
+
+// let name=null;
+// let result= name ?? "Guest";
+// console.log(result);
+
+
+// let username=null;
+// let displayName=username ?? "Guest";
+// console.log(displayName);
+
+// let points=0;
+// console.log(points ?? 100);
+// console.log(0 ?? 100);
+
+
+// let user={
+//     name:'Sara',
+//     address:{city:'Kabul' ,country:'Afg'}
+// };
+// // console.log(user.name,user.address.city, user.address.country);
+// console.log(user ? .address ? .city);
+
+// Real-World Example Combining Operators
+// let user=[
+//     {name:'Ali' , age:20},
+//     {name:'Fatima' ,age:25},
+//     null,
+// ];
+// user.forEach(user =>{
+//     let name=user ?.name ?? 'Unknown';
+//     let status=user?.age>18 ?'Adult':'Minor';
+//     console.log(`${name} is ${status}`);
+// })
+
+// JavaScript Control Flow
+
+let scror=85;
+if(scror>90){
+    console.log('A');
+}else if(scror>80){
+    console.log("B");
+}else if(scror>70){
+    console.log('D');
+}else if(scror>50){
+    console.log('c');
+}else{
+    console.log('your field');
 }
-
-console.log(sum(1,2,3,4,5));
-// 8. Nullish Coalescing Operator (??)
-
-
-let name=null;
-let result= name ?? "Guest";
-console.log(result);
-
-
-let username=null;
-let displayName=username ?? "Guest";
-console.log(displayName);
-
-let points=0;
-console.log(points ?? 100);
-console.log(0 ?? 100);
-
-
-let user={
-    name:'Sara',
-    address:{city:'Kabul' ,country:'Afg'}
-};
-// console.log(user.name,user.address.city, user.address.country);
-console.log(user ? .address ? .city);
-
 
 
 
