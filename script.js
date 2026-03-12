@@ -572,21 +572,66 @@
 
 // JavaScript Control Flow
 
-let scror=85;
-if(scror>90){
-    console.log('A');
-}else if(scror>80){
-    console.log("B");
-}else if(scror>70){
-    console.log('D');
-}else if(scror>50){
-    console.log('c');
+// let scror=85;
+// if(scror>90){
+//     console.log('A');
+// }else if(scror>80){
+//     console.log("B");
+// }else if(scror>70){
+//     console.log('D');
+// }else if(scror>50){
+//     console.log('c');
+// }else{
+//     console.log('your field');
+// }
+
+let age=18;
+if(age>18){
+    console.log("your adult");
 }else{
-    console.log('your field');
+    console.log('your child');
 }
 
+let number=5;
+if(number>0){
+    console.log('postive');
+}else{
+    console.log('Negative');
+}
+ let num=7;
+ if(num % 2 === 0){
+    console.log('even');
+ }
+ else{
+    console.log('odd number');
+ }
 
 
+ let marks=75;
+ if(marks >=90){
+    console.log('Garde:A');
+ }else if(marks >=70){
+    console.log('grade:B');
+ }else {
+    console.log('Grade:C');
+ }
+
+ let x=20
+ if(x>10){
+    console.log('your 10 years old');
+ }else{
+    console.log('your child');
+ }
+ let a=30;
+ if(a>10)
+{
+    console.log('bigger than 10');
+}else if(a == 10){
+    console.log('cqval to 10');
+}
+else{
+    console.log('maller than 10');
+}
 
 
 
