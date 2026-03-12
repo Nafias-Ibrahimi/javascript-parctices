@@ -69,7 +69,6 @@
 // document.body.appendChild(hero);
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
-
 // const container = document.createElement('div"');
 // const nav = document.createElement('nav');
 
@@ -133,7 +132,6 @@
 
 // nav.style.justifyContent = 'flex-end';
 
-
 // console.log('this is message');
 // let name='Nafisa';
 // console.log('name:' , name);
@@ -142,10 +140,8 @@
 // console.warn('Warring message');
 // console.table(1,2,3);
 
-
 // let score=[90,40,50];
 // console.table(score);
-
 
 // let x=5;
 // if(x>0){
@@ -160,26 +156,20 @@
 //     console.log('hello');
 // }
 
-
 // let sum=5 +10;
 // console.log(sum);
-
 
 // let age=20;
 // let nextYearAge=age+1;
 // console.log(nextYearAge);
 
-
 // let names='Ali';
 // console.log('Hello :' ,names);
-
-
 
 // let width=5;
 // let height=10;
 // let area=width*height;
 // console.log(area);
-
 
 // let x=25;
 // x='hello';
@@ -191,7 +181,6 @@
 // let str3=`message: ${str1}, ${str2}`
 // console.log(str3);
 
-
 // let name="javascript";
 // console.log(name.length);
 // console.log(name.toUpperCase());
@@ -202,7 +191,6 @@
 // console.log(10/0);
 // console.log('abc' *2);
 
-
 // console.log(Math.sqrt(16));
 // console.log(Math.random());
 
@@ -212,11 +200,9 @@
 // console.log(10 === "10");
 // console.log(10 == "10");
 
-
 // let user=null;
 // console.log(user);
 // console.log(typeof null);
-
 
 // // 2.5 Undefined
 
@@ -233,19 +219,15 @@
 // const bigNum=123455667786787687987n;
 // console.log(bigNum +10n);
 
-
 // let bigNumber=BigInt(1238972389274328432984732n);
 
 // let a= 9007199254740991n;
 // let b=2n;
 // console.log(a+b);
 
-
 // console.log(typeof 'hello');
 // console.log(typeof 10);
 // console.log(typeof true);
-
-
 
 // let person={
 //     name:'Ali',
@@ -260,7 +242,6 @@
 // person.age=26;
 // console.log(person.age);
 
-
 // let student={
 //     name:'Sara',
 //     grade:{math:90, engilsh:80}
@@ -268,7 +249,6 @@
 // };
 // console.log(student.name);
 // console.log(student.grade.math);
-
 
 // let fruits=['Apple' ,'Banana' ,'Cherry'];
 // console.log(fruits[1]);
@@ -295,7 +275,6 @@
 // }
 // console.log(square(7));
 
-
 // console.log(typeof 'Hello');
 // console.log(typeof 123);
 // console.log(typeof null);
@@ -308,9 +287,7 @@
 // console.log(typeof arr);
 // console.log(arr instanceof Object);
 
-
 // console.log(  [] instanceof Object);
-
 
 // Array.isArray(value);
 
@@ -321,14 +298,12 @@
 // console.log(Array.isArray(emptyArr));
 // console.log(typeof []);
 
-
 // console.log(Array.isArray([]));
 
 // console.log("5" + 2);
 // console.log('5' -2);
 // console.log(true +1);
 // 5.1 Implicit Conversion (Type Coercion)
-
 
 // let result='10' -2;
 // console.log(result);
@@ -351,7 +326,6 @@
 //  console.log(num);
 //  console.log(typeof num);
 
-
 //  let str1='456px';
 //  let num1=parseInt(str1);
 //  console.log(num1);
@@ -367,7 +341,6 @@
 // let str=String(num)
 // console.log(str);
 // console.log(typeof num);
-
 
 // let num1=465;
 // let str1=num.toString();
@@ -460,7 +433,6 @@
 // console.log(a);
 // console.log(String(3456));
 
-
 // let a=10;
 // let b=3;
 // console.log(a-b);
@@ -536,11 +508,9 @@
 // console.log(sum(1,2,3,4,5));
 // // 8. Nullish Coalescing Operator (??)
 
-
 // let name=null;
 // let result= name ?? "Guest";
 // console.log(result);
-
 
 // let username=null;
 // let displayName=username ?? "Guest";
@@ -549,7 +519,6 @@
 // let points=0;
 // console.log(points ?? 100);
 // console.log(0 ?? 100);
-
 
 // let user={
 //     name:'Sara',
@@ -585,56 +554,63 @@
 //     console.log('your field');
 // }
 
-let age=18;
-if(age>18){
-    console.log("your adult");
-}else{
-    console.log('your child');
+// let age=18;
+// if(age>18){
+//     console.log("your adult");
+// }else{
+//     console.log('your child');
+// }
+
+// let number=5;
+// if(number>0){
+//     console.log('postive');
+// }else{
+//     console.log('Negative');
+// }
+//  let num=7;
+//  if(num % 2 === 0){
+//     console.log('even');
+//  }
+//  else{
+//     console.log('odd number');
+//  }
+
+//  let marks=75;
+//  if(marks >=90){
+//     console.log('Garde:A');
+//  }else if(marks >=70){
+//     console.log('grade:B');
+//  }else {
+//     console.log('Grade:C');
+//  }
+
+//  let x=20
+//  if(x>10){
+//     console.log('your 10 years old');
+//  }else{
+//     console.log('your child');
+//  }
+//  let a=30;
+//  if(a>10)
+// {
+//     console.log('bigger than 10');
+// }else if(a == 10){
+//     console.log('cqval to 10');
+// }
+// else{
+//     console.log('maller than 10');
+// }
+let day = 3;
+switch (day) {
+  case 1:
+    console.log("Moday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wendnseaday");
+  default:
+    console.log("Unknown day");
 }
-
-let number=5;
-if(number>0){
-    console.log('postive');
-}else{
-    console.log('Negative');
-}
- let num=7;
- if(num % 2 === 0){
-    console.log('even');
- }
- else{
-    console.log('odd number');
- }
-
-
- let marks=75;
- if(marks >=90){
-    console.log('Garde:A');
- }else if(marks >=70){
-    console.log('grade:B');
- }else {
-    console.log('Grade:C');
- }
-
- let x=20
- if(x>10){
-    console.log('your 10 years old');
- }else{
-    console.log('your child');
- }
- let a=30;
- if(a>10)
-{
-    console.log('bigger than 10');
-}else if(a == 10){
-    console.log('cqval to 10');
-}
-else{
-    console.log('maller than 10');
-}
-
-
-
-
-
 
