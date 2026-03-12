@@ -822,24 +822,39 @@
 // }
 // test();
 
-function outer(){
-   let counter=0;
-   return function inner(){
-      counter++;
-      return counter;
-   }
-}
-const increment=outer();
-console.log(increment());
-console.log(increment());
-console.log(increment());
+// function outer(){
+//    let counter=0;
+//    return function inner(){
+//       counter++;
+//       return counter;
+//    }
+// }
+// const increment=outer();
+// console.log(increment());
+// console.log(increment());
+// console.log(increment());
 
 
-function operate(a,b , func){
-   return func(a,b);
+// function operate(a,b , func){
+//    return func(a,b);
 
-}
-console.log(operate(5,3 ,(x,y)=>x+y));
-console.log(operate(5,3 ,(x,y)=>x*y));
-console.log(operate(5,3 ,(x,y)=>x/y));
+// }
+// console.log(operate(5,3 ,(x,y)=>x+y));
+// console.log(operate(5,3 ,(x,y)=>x*y));
+// console.log(operate(5,3 ,(x,y)=>x/y));
+
+// let numbers=[1,2,3,4,5,6];
+// let squares=numbers.map(n=>n*n);
+// console.log(squares);
+
+// let evens=numbers.filter(n => n % 2===0);
+// console.log(evens);
+
+// let sum=numbers.reduce((a,b) =>a+b ,0);
+// console.log(sum);
+
+// let result =numbers
+// .filter(n =>n % 2 === 0)
+// .reduce((a,b) =>a+b,0);
+// console.log(result);
 
