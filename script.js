@@ -688,20 +688,41 @@
 //    }
 // }
 
-for(let i=1; i<=10; i++){
-   if(i % 2===0){
-      console.log(i);
-   }
-}
+// for(let i=1; i<=10; i++){
+//    if(i % 2===0){
+//       console.log(i);
+//    }
+// }
 
 let password="";
-let attempts=0;
-while(password !== "123" && attempts<3){
-   password=prompt("Enter passwd");
-   attempts++;
-}
+// let attempts=0;
+// while(password !== "123" && attempts<3){
+//    password=prompt("Enter passwd");
+//    attempts++;
+// }
 if(password === "123"){
    console.log('Access granted');
 }else{
    console.log("too many attemts");
+}
+
+
+const passwd=['1234' , 'abcd', 'admin' ,'mypassowrd'];
+const correctPasswrd="admin";
+for(let i=0; i<passwd.length; i++){
+   if(passwd[i] === correctPasswrd){
+      console.log('password fonud:' ,passwd[i]);
+      break;
+   }
+   console.log("Wrong password" ,passwd[i]);
+}
+
+const passwords = ["12", "abcd", "123", "admin"];
+
+for (let i = 0; i < passwords.length; i++) {
+  if (passwords[i].length < 4) {
+    continue;
+  }
+
+  console.log("Checking password:", passwords[i]);
 }
