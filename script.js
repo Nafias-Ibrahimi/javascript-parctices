@@ -788,26 +788,58 @@
 // }
 // console.log(square(8));
 
-function getStatus(numbers){
-   const min = Math.min(...numbers);
-   const max = Math.max(...numbers);
-   const sum = numbers.reduce((total , num) => total + num ,0);
-   const average = sum / numbers.length;
+// function getStatus(numbers){
+//    const min = Math.min(...numbers);
+//    const max = Math.max(...numbers);
+//    const sum = numbers.reduce((total , num) => total + num ,0);
+//    const average = sum / numbers.length;
 
-   return {
-      min,
-      max,
-      sum,
-      average
-   };
+//    return {
+//       min,
+//       max,
+//       sum,
+//       average
+//    };
+// }
+
+// console.log(getStatus([3,7,2,9]));
+// console.log(getStatus([-3,-7,4,1,-2]));
+
+// const {min , max} = getStatus([5,2,11,9]);
+// console.log(min);
+// console.log(max);
+
+// const scores = [65,90,70,85,50];
+// console.log(getStatus(scores));
+
+// let x = 10; // global
+// function test() {
+//  let y = 20; // function scope
+//  if (true) {
+//  let z = 30; // block scope
+//  console.log(z);
+//  }
+// }
+// test();
+
+function outer(){
+   let counter=0;
+   return function inner(){
+      counter++;
+      return counter;
+   }
 }
+const increment=outer();
+console.log(increment());
+console.log(increment());
+console.log(increment());
 
-console.log(getStatus([3,7,2,9]));
-console.log(getStatus([-3,-7,4,1,-2]));
 
-const {min , max} = getStatus([5,2,11,9]);
-console.log(min);
-console.log(max);
+function operate(a,b , func){
+   return func(a,b);
 
-const scores = [65,90,70,85,50];
-console.log(getStatus(scores));
+}
+console.log(operate(5,3 ,(x,y)=>x+y));
+console.log(operate(5,3 ,(x,y)=>x*y));
+console.log(operate(5,3 ,(x,y)=>x/y));
+
