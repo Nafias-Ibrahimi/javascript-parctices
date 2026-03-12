@@ -740,34 +740,74 @@
 
 // function
 
-function greet(name){
-   return 'Hello:' +name;
-}
-console.log(greet('Nafisa'));
-const greets=function(name){
-   return 'Hello My frien:'+name
-}
-console.log(greets('Ali'));
+// function greet(name){
+//    return 'Hello:' +name;
+// }
+// console.log(greet('Nafisa'));
+// const greets=function(name){
+//    return 'Hello My frien:'+name
+// }
+// console.log(greets('Ali'));
 
-function add(a,b){
-   return a+b;
-}
-console.log(add(8,5));
+// function add(a,b){
+//    return a+b;
+// }
+// console.log(add(8,5));
 
 
-const addArrow=(a,b)=>a+b ;
- console.log(addArrow(3,6));
+// const addArrow=(a,b)=>a+b ;
+//  console.log(addArrow(3,6));
    
-const multiply=(x,y)=>{
-   let result=x*y;
-   return result
+// const multiply=(x,y)=>{
+//    let result=x*y;
+//    return result
+// }
+// console.log(multiply(9,5));
+
+
+// const sayHi=()=>{
+//    console.log('Hello ');
+// }
+// sayHi();
+
+// function greet(name="Guest"){
+//    console.log("Hello :" +name);
+// }
+// greet();
+// greet('Nafisa');
+
+
+// function calculatePrice(price , tax=0.1){
+//    return price +price * tax;
+// }
+// console.log(calculatePrice(100));
+
+
+// function square(n){
+//    return n*n;
+// }
+// console.log(square(8));
+
+function getStatus(numbers){
+   const min = Math.min(...numbers);
+   const max = Math.max(...numbers);
+   const sum = numbers.reduce((total , num) => total + num ,0);
+   const average = sum / numbers.length;
+
+   return {
+      min,
+      max,
+      sum,
+      average
+   };
 }
-console.log(multiply(9,5));
 
+console.log(getStatus([3,7,2,9]));
+console.log(getStatus([-3,-7,4,1,-2]));
 
-const sayHi=()=>{
-   console.log('Hello ');
-}
-sayHi();
+const {min , max} = getStatus([5,2,11,9]);
+console.log(min);
+console.log(max);
 
-function greet
+const scores = [65,90,70,85,50];
+console.log(getStatus(scores));
