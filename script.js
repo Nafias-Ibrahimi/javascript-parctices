@@ -600,17 +600,72 @@
 // else{
 //     console.log('maller than 10');
 // }
-let day = 3;
-switch (day) {
-  case 1:
-    console.log("Moday");
-    break;
-  case 2:
-    console.log("Tuesday");
-    break;
-  case 3:
-    console.log("Wendnseaday");
-  default:
-    console.log("Unknown day");
-}
+// let day = 3;
+// switch (day) {
+//   case 1:
+//     console.log("Moday");
+//     break;
+//   case 2:
+//     console.log("Tuesday");
+//     break;
+//   case 3:
+//     console.log("Wendnseaday");
+//   default:
+//     console.log("Unknown day");
+// }
 
+//  for(let i=0; i<10; i++){
+//     console.log('count:' +i);
+//  }
+
+//  let n=1;
+//  while(n<=5){
+//     console.log('Number:' +n);
+//     n++;
+//  }
+
+//  let i=1;
+//  do{
+//     console.log("value:" +i);
+//     i++;
+//  }
+//  while(i<=5);
+
+
+ let student={
+   name:'ali',
+   age:20,
+   grade:'A'
+ };
+ for(let key in student){
+   console.log(key+ ":" +student[key]);
+ }
+
+
+ let person={
+name:'Nafisa',
+age:20,
+city:'Kabul'
+ };
+ for(let key in person){
+   console.log(key + ":" +person[key]);
+ }
+ 
+
+ let numbers=[20,30,40];
+ for(let i in numbers){
+   console.log(i + ":"+ numbers[i]);
+ }
+
+
+ for(let i=1; i<=10; i++){
+   if(i===5) break;
+   console.log(i);
+ }
+
+for (let i=0; i<5; i++){
+   if(i===2){
+      continue;
+   }
+   console.log(i);
+}
