@@ -858,45 +858,60 @@
 // .reduce((a,b) =>a+b,0);
 // console.log(result);
 
- function fetchData(callback){
-   console.log('Feching data...');
-   setTimeout(()=>{
-      callback('Data recived');
-   },2000);
+//  function fetchData(callback){
+//    console.log('Feching data...');
+//    setTimeout(()=>{
+//       callback('Data recived');
+//    },2000);
 
- }
- fetchData(message =>console.log(message));
-
-
-function createCounter(){
-   let count=0;
-   return{
-      increment:()=> ++count,
-      decrement:()=>--count,
-      value:()=>count
-
-   };
-}
-const counter=createCounter();
-console.log(counter.increment());
-console.log(counter.increment());
-console.log(counter.decrement());
+//  }
+//  fetchData(message =>console.log(message));
 
 
-function repeatNTimes(action ,n){
-   for(let i=0; i<n; i++) action(i);
-}
-repeatNTimes(i=>console.log('Iteration :' +i) ,3);
+// function createCounter(){
+//    let count=0;
+//    return{
+//       increment:()=> ++count,
+//       decrement:()=>--count,
+//       value:()=>count
 
-// Default Params + Arrow Functions
-const greet = (name = "Guest", lang = "en") => {
- if (lang === "en") return `Hello ${name}`;
- if (lang === "es") return `Hola ${name}`;
-};
-console.log(greet()); // Hello Guest
-console.log(greet("Ali")); // Hello Ali
-console.log(greet("Luis","es")); // Hola Luis
-
-
+//    };
+// }
+// const counter=createCounter();
+// console.log(counter.increment());
+// console.log(counter.increment());
+// console.log(counter.decrement());
 
 
+// function repeatNTimes(action ,n){
+//    for(let i=0; i<n; i++) action(i);
+// }
+// repeatNTimes(i=>console.log('Iteration :' +i) ,3);
+
+// // Default Params + Arrow Functions
+// const greet = (name = "Guest", lang = "en") => {
+//  if (lang === "en") return `Hello ${name}`;
+//  if (lang === "es") return `Hola ${name}`;
+// };
+// console.log(greet()); // Hello Guest
+// console.log(greet("Ali")); // Hello Ali
+// console.log(greet("Luis","es")); // Hola Luis
+
+
+
+let student={};
+
+student.name="Nafisa";
+student.age=20;
+console.log(student);
+
+student['grade'] = 'A';
+console.log(student);
+
+let obj={};
+obj['favorite color']='blue';
+console.log(obj);
+
+let key= "score";
+student[key]=95;
+console.log(student);
